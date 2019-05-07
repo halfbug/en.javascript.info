@@ -18,7 +18,7 @@ loadJson('no-such-user.json')
 ```
 
 Notes:
-
+that is
 1. The function `loadUrl` becomes `async`.
 2. All `.then` inside are replaced with `await`.
 3. We can `return response.json()` instead of awaiting for it, like this:
